@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "CozyxDRIX10",
     "description": "A cozy, One Piece themed GX Mod with web modding for Discord, inspired by the Cozy theme from Opera GX.",
-    "version": "2.4",
+    "version": "2.3",
     "icons": {
         "256": "icon.jpg"
     },
