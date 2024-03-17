@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "CozyxDRIX10",
     "description": "A cozy, One Piece themed GX Mod with web modding for Discord, inspired by the Cozy theme from Opera GX.",
-    "version": "1.1.8",
+    "version": "2.1",
     "icons": {
         "256": "icon.jpg"
     },
@@ -58,10 +58,10 @@
                     "sounds/toggle.mp3"
                 ],
                 "TAB_CLOSE": [
-                    "sounds/hover.mp3"
+                    "sounds/click.mp3"
                 ],
                 "TAB_INSERT": [
-                    "sounds/hover.mp3"
+                    "sounds/click.mp3"
                 ],
                 "HOVER": [
                     "sounds/hover.mp3"
@@ -88,10 +88,10 @@
                     "sounds/toggle.mp3"
                 ],
                 "LEVEL_UPGRADE": [
-                    "sounds/hover.mp3"
+                    "sounds/click.mp3"
                 ],
                 "TAB_SLASH": [
-                    "sounds/hover.mp3"
+                    "sounds/click.mp3"
                 ]
             },
             "theme": {
