@@ -4,11 +4,11 @@
   --background-behind-appmount: rgb(var(--darker-background-color));
   --background-accent-color-1: 0, 0, 0, 0;
   /* Color-Settings (RGB only) */
-  --accent-color-1: 121, 199, 237; /* Main accent color */
-  --accent-color-2: 71, 141, 181; /* Adjusted secondary accent color */
-  --dark-background-color: 2, 83, 115; /* Adjusted darker background color */
-  --darker-background-color: 3, 52, 71; /* Adjusted another background color */
-  --border-brightness: 1;
+  --accent-color-1: 71, 167, 214; /* Main accent color */
+  --accent-color-2: 46, 120, 163; /* Adjusted secondary accent color */
+  --dark-background-color: 3, 52, 71; /* Adjusted darker background color */
+  --darker-background-color: 0, 7, 10; /* Adjusted another background color */
+  --border-brightness: 1.5;
   /*  More-Color-Settings   */
   --gx-red: 181, 32, 63;
   --gx-red-2: 130, 27, 49;
@@ -16,55 +16,72 @@
   --gx-yellow-2: 255, 255, 68;
   --gx-green: 0, 212, 81;
   --gx-green-2: 0, 255, 129;
+  --gx-blue: 0, 176, 244;
+  --gx-blue-2: 0, 255, 255;
+  --gx-purple: 123, 0, 255;
+  --gx-purple-2: 255, 0, 255;
+  --gx-pink: 255, 0, 123;
+  --gx-pink-2: 255, 0, 255;
+  --gx-orange: 255, 123, 0;
+  --gx-orange-2: 255, 123, 0;
+  --gx-brown: 123, 63, 0;
+  --gx-brown-2: 123, 63, 0;
+  --gx-grey: 123, 123, 123;
+  --gx-grey-2: 123, 123, 123;
+  --gx-white: 255, 255, 255;
+  --gx-white-2: 255, 255, 255;
+  --gx-black: 0, 0, 0;
+  --gx-black-2: 0, 0, 0;
 
   /*  Font-Color-Settings  */
   --fullwhite-font: 250, 253, 255;
-  --normal-font: 201, 203, 206;
+  --normal-font: 230, 233, 237;
   --normal-hover-font: 238, 239, 240;
-  --muted-font: 114, 118, 125;
+  --muted-font: 172, 172, 173;
   --link-text: 0, 176, 244;
-  --font-in-accent: 0, 0, 0;
+  --font-in-accent: 230, 233, 237;
+
   /* Font-Setting */
   --customFont: unset;
   --codeBlocksCustomFont: unset;
   --category-name-transform: unset;
   /* Advanced-Background-Settings */
   --wintitlebar-background-blur: none;
-  --wintitlebar-transparency: 0.7;
+  --wintitlebar-transparency: 0.8;
   --wintitlebar-transparency-color: var(--dark-background-color);
-  --wintb-focused-alpha: 1;
+  --wintb-focused-alpha: 0.8;
   --wintb-focused-color: var(--darker-background-color);
 
   --header-background-blur: none;
-  --header-transparency: 0.5;
+  --header-transparency: 0.8;
   --header-transparency-color: var(--dark-background-color);
 
   --serverlist-background-blur: none;
-  --serverlist-transparency: 0.5;
+  --serverlist-transparency: 0.8;
   --serverlist-transparency-color: var(--dark-background-color);
 
   --channels-background-blur: none;
-  --channels-transparency: 0.5;
+  --channels-transparency: 0.8;
   --channels-transparency-color: var(--dark-background-color);
 
   --chat-background-blur: none;
-  --chat-transparency: 0.5;
+  --chat-transparency: 0.8;
   --chat-transparency-color: var(--dark-background-color);
 
   --memberlist-background-blur: none;
-  --memberlist-transparency: 0.5;
+  --memberlist-transparency: 0.8;
   --memberlist-transparency-color: var(--dark-background-color);
 
   --st-l-scroller-bg-blur: none;
-  --st-l-scroller-transparency: 1;
+  --st-l-scroller-transparency: 0.5;
   --st-l-scroller-color: var(--dark-background-color);
   --st-r-scroller-bg-blur: none;
-  --st-r-scroller-transparency: 1;
+  --st-r-scroller-transparency: 0.5;
   --st-r-scroller-color: var(--darker-background-color);
   /* Advanced-Element-Transparency-Settings */
-  --chatbox-transparency: 1;
-  --chatbox-focused-transparency: 1;
+  --chatbox-transparency: 0.5;
+  --chatbox-focused-transparency: 0.5;
   --other-transparency: 1;
-  --other-highlighted-transparency: 1;
+  --other-highlighted-transparency: 0.5;
   --lines-transparency: 1;
 }
