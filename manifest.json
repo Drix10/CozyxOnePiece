@@ -1,0 +1,136 @@
+{
+    "manifest_version": 3,
+    "name": "CozyxDRIX10",
+    "description": "A cozy, One Piece themed GX Mod with web modding for Discord, inspired by the Cozy theme from Opera GX.",
+    "version": "1.1.8",
+    "icons": {
+        "256": "icon.jpg"
+    },
+    "developer": {
+        "name": "DRIX10"
+    },
+    "mod": {
+        "schema_version": 1,
+        "payload": {
+            "shaders": {
+                "Cozy Sunlights": {
+                    "animation": {
+                        "duration": 60,
+                        "steps": 3600
+                    },
+                    "path": "shaders/OnePiece.txt"
+                }
+            },
+            "wallpaper": {
+                "dark": {
+                    "image": "wallpaper/OnePiece.jpg",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#cccccc"
+                },
+                "light": {
+                    "image": "wallpaper/OnePiece.jpg",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#cccccc"
+                }
+            },
+            "background_music": [
+                "music/layer4.mp3",
+                "music/layer3.mp3",
+                "music/layer2.mp3",
+                "music/layer1.mp3"
+            ],
+            "keyboard_sounds": {
+                "TYPING_LETTER": [
+                    "sounds/keyboard3.wav"
+                ],
+                "TYPING_ENTER": [
+                    "sounds/keyboard1.wav"
+                ],
+                "TYPING_SPACE": [
+                    "sounds/keyboard2.wav"
+                ],
+                "TYPING_BACKSPACE": [
+                    "sounds/keyboard4.wav"
+                ]
+            },
+            "browser_sounds": {
+                "SWITCH_TOGGLE": [
+                    "sounds/toggle.mp3"
+                ],
+                "TAB_CLOSE": [
+                    "sounds/hover.mp3"
+                ],
+                "TAB_INSERT": [
+                    "sounds/hover.mp3"
+                ],
+                "HOVER": [
+                    "sounds/hover.mp3"
+                ],
+                "HOVER_UP": [
+                    "sounds/hover.mp3"
+                ],
+                "CLICK": [
+                    "sounds/click.mp3"
+                ],
+                "LIMITER_ON": [
+                    "sounds/toggle.mp3"
+                ],
+                "LIMITER_OFF": [
+                    "sounds/toggle.mp3"
+                ],
+                "IMPORTANT_CLICK": [
+                    "sounds/click.mp3"
+                ],
+                "FEATURE_SWITCH_ON": [
+                    "sounds/toggle.mp3"
+                ],
+                "FEATURE_SWITCH_OFF": [
+                    "sounds/toggle.mp3"
+                ],
+                "LEVEL_UPGRADE": [
+                    "sounds/hover.mp3"
+                ],
+                "TAB_SLASH": [
+                    "sounds/hover.mp3"
+                ]
+            },
+            "theme": {
+                "dark": {
+                    "gx_accent": {
+                        "h": 200,
+                        "s": 80,
+                        "l": 60
+                    },
+                    "gx_secondary_base": {
+                        "h": 180,
+                        "s": 30,
+                        "l": 20
+                    }
+                },
+                "light": {
+                    "gx_accent": {
+                        "h": 200,
+                        "s": 80,
+                        "l": 70
+                    },
+                    "gx_secondary_base": {
+                        "h": 180,
+                        "s": 30,
+                        "l": 80
+                    }
+                }
+            },
+            "page_styles": [
+                {
+                    "matches": [
+                        "https://*.discord.com/*"
+                    ],
+                    "css": [
+                        "css/main.theme.css",
+                        "css/changecolors.css"
+                    ]
+                }
+            ]
+        }
+    }
+}
