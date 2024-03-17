@@ -27,7 +27,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-- CozyxOnePiece is developed and maintained by [Your Name or Username].
+- CozyxOnePiece is developed and maintained by [DRIX10](https://discord.com/users/954367061222633472).
 - One Piece is a Japanese manga series written and illustrated by Eiichiro Oda.
 
 
