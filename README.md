@@ -4,7 +4,7 @@
 
 ## Description
 
-**This mod aims to provide a comfortable and aesthetically pleasing browsing experience for Opera GX users, particularly for fans of the One Piece series. It includes custom CSS styles for Discord, allowing users to customize their Discord interface with a unique blend of classic grayish colors and One Piece themed elements.**
+**This mod aims to provide a comfortable and aesthetically pleasing browsing experience for Opera GX users, particularly for fans of the One Piece series. It includes custom CSS styles for Discord, allowing users to customize their Discord interface with a unique blend of blue/cyan colors and One Piece themed elements.**
 
 ## Features
 
